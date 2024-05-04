@@ -1,0 +1,191 @@
+body, a{
+  text-decoration: none;
+}
+
+/* Estilos para el encabezado */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(5, 8, 20);
+  padding: 10px;
+}
+
+/* Estilos para el logo */
+.logo {
+  display: inline-block;
+}
+
+/* Estilos para las imágenes del encabezado */
+header img {
+  max-width: 70px;
+  height: auto;
+}
+
+/* Estilos para el texto del encabezado */
+header .PharmaLife {
+  display: inline-block;
+  color: #ffffff;
+  margin-right: 10px; 
+  font-size: 30px;
+}
+nav a{
+  color: #ffffff;
+  margin-left: 10px;
+}
+nav a:hover{
+  color: rgb(4, 84, 158);
+}
+
+nav a img {
+  max-width: 30px; 
+  height: auto; 
+  vertical-align: middle; 
+  margin-left: 5px; 
+  padding-right: 5px;
+}
+
+
+
+
+
+/* Estilos para la sección Acerca de */
+#acerca-de {
+  background-color: #f8f9fa; 
+  padding: 50px 0; 
+}
+
+/* Estilos para el contenedor de la sección Acerca de */
+#acerca-de .container {
+  max-width: 800px;
+  margin: 0 auto; 
+}
+
+/* Estilos para el título de la sección Acerca de */
+#acerca-de h2 {
+  font-size: 28px; 
+  color: #333; 
+  margin-bottom: 20px; 
+}
+
+/* Estilos para el texto de la sección Acerca de */
+#acerca-de p {
+  font-size: 16px;
+  color: #666; 
+  line-height: 1.6; 
+}
+
+.texto-descripcion {
+  font-family: Arial, sans-serif; /* Cambia la fuente a Arial o cualquier otra fuente sans-serif */
+  font-size: 18px; /* Cambia el tamaño del wtexto a 18px */
+  color: #dd3232; /* Cambia el color del texto si es necesario */
+}
+
+
+/*FOOTER*/
+.footer-container {
+  margin-left: 100px; 
+  margin-right: 100px; 
+  margin-bottom: 10px;
+}
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  width: 450px;
+  margin: 100px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(5, 4, 75, 0.685);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group label{
+  text-align: left;
+  display: block;
+}
+
+button {
+  background-color: #1c2731;
+  color: #ffffff;
+  border:none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #18487c;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  text-align: left;
+  background-color: rgb(187, 187, 187);
+}
+
+
+
+/* Anula los estilos de hover del carrusel de Bootstrap */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: transparent;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: transparent;
+}
+
+
+
+.carousel-item img {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: 250px; /* Permite que la altura se ajuste automáticamente según el ancho */
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  max-width: 350px; /* Define el ancho máximo del contenedor de la tarjeta */
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+
+
+.noticia-img {
+  width: 400px; /* Ajusta el ancho al 100% del contenedor */
+  height: 400px; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+
+.container-news {
+  justify-content: center;
+}
